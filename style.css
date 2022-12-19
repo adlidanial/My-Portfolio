@@ -22,7 +22,14 @@ li, .nav-item > a, .nav-title{
     text-transform: uppercase;
 }
 
-.profile-container > *,
+.profile-container > #profile-description{
+    padding: 0 0 0 10%;
+}
+
+#profile-description > p{
+    text-align: justify;
+}
+
 footer
 {
     padding: 0 10% 0 10%;
@@ -80,7 +87,7 @@ input[type=checkbox]{
 
 .profile-container{
     display: grid;
-    grid-template-columns: minmax(0, 2fr) 300px;
+    grid-template-columns: minmax(0, 2fr) 0.5fr;
 }
 
 .profile-container #profile-description{
@@ -171,6 +178,10 @@ div#project-description-1 > p{
 
 .project-list > a > img{
     width: 80%;
+}
+
+.project-list > a > h4{
+    text-transform: uppercase;
 }
 
 footer{
